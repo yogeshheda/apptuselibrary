@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.yogeshheda'
 ext {
     PUBLISH_GROUP_ID = 'cyd.sample.android'
     PUBLISH_ARTIFACT_ID = 'awesome-material'
@@ -32,6 +35,3 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }
-apply plugin: 'com.github.dcendents.android-maven'
-
-group='com.github.YourUsername'
